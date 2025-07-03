@@ -53,7 +53,7 @@ def total_to_static_pressure(P_total, V, rho):
 # Constants
 P_static = 1.0 # Static pressure in [bara]
 
-# Specify pressure, temperature and composition
+# Specify temperature and composition
 T = 20.0 # Temperature [C]
 
 composition = {
