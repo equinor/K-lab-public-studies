@@ -1,3 +1,9 @@
+"""
+This script analyzes the sensitivity of measured temperature to velocity in a thermodynamic system, assuming a recovery factor of 0.65.  
+It includes functions for temperature conversions based on ASME PTC 10-1997 standards and visualizes 
+the difference between measured and static temperatures across a velocity range.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 
