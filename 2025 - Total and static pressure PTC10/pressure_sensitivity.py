@@ -98,6 +98,6 @@ plt.ylabel(r"$\frac{P_{tot} - P_{stat}}{P_{stat}}$ [%]", fontsize=14)
 plt.title('Effect of dynamic pressure for natural gas at 1 bara static pressure')
 plt.legend()
 plt.grid()
+plt.savefig('relative_pressure_difference_vs_velocity.png', dpi=300, bbox_inches='tight')
 plt.show()
 
-plt.savefig('relative_pressure_difference_vs_velocity.png', dpi=300, bbox_inches='tight')
